@@ -1,0 +1,8 @@
+Codificacion de modulos del software - GA7-220501096-AA2-EV01
+Harrison Rodriguez Galindo - Ficha 3336080
+
+Repositorio del modulo de capuchones (Java + JDBC):
+[PEGAR AQUI EL ENLACE DE GITHUB DEL MODULO]
+
+Repositorio del proyecto completo Agro Line (Next.js):
+https://github.com/AgromonteSistema/crm-produccion-agromonte

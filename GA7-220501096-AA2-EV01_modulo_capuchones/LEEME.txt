@@ -1,0 +1,20 @@
+Modulo de capuchones - Agro Line
+GA7-220501096-AA2-EV01 Codificacion de modulos del software
+Harrison Rodriguez Galindo - Ficha 3336080
+
+Modulo en Java 17 que administra el catalogo de capuchones (insertar, consultar,
+actualizar y eliminar) con conexion a base de datos por JDBC.
+
+Estructura (paquetes):
+  co.agroline.capuchones            Main.java (inicio del programa)
+  co.agroline.capuchones.modelo     Capuchon.java (clase del dominio)
+  co.agroline.capuchones.datos      ConexionBD.java (conexion JDBC) y CapuchonDAO.java (CRUD)
+  co.agroline.capuchones.vista      MenuConsola.java (menu por consola)
+
+Ejecutar (Windows):
+  gradlew.bat installDist
+  build\install\modulo-capuchones\bin\modulo-capuchones.bat
+
+La base de datos de desarrollo es SQLite (archivo capuchones.db, se crea solo).
+En produccion la misma tabla existe en PostgreSQL (Supabase) como public.amd_capuchon;
+para conectarse alla solo cambia la URL JDBC en ConexionBD.java y el driver.
